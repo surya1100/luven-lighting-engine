@@ -1,0 +1,13 @@
+# Default behavior 
+# Exclude build artifacts
+node_modules/* linguist-vendored
+src/**/*.rs linguist-detectable
+*.rs linguist-detectable
+*.sh text eol=lf
+* text=auto eol=lf
+*.yml linguist-detectable=false
+*.png binary
+Cargo.lock linguist-generated
+public/**/*.html linguist-vendored
+
+# eof df5b581a
